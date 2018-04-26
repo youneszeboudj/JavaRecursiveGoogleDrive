@@ -6,8 +6,10 @@ To setup the tool, you have to create a Google Drive API key and download it in 
 
 These steps are described here : https://developers.google.com/drive/v3/web/quickstart/java , Section 'Step 1: Turn on the Drive API'
 
-from Google Developers page above :
+If you won't browse to the link above, here is the instructions (given by Google) :
+
 Step 1: Turn on the Drive API
+
 <ol>
 <li>Use
    <a href="https://console.developers.google.com/start/api?id=drive" target="_blank" class="gc-analytics-event" data-category="Quickstart" data-action="Enable" data-label="Drive API, Java">this wizard</a>
