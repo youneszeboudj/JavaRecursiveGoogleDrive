@@ -34,3 +34,6 @@ Step 1: Turn on the Drive API
 
 </li>
 </ol>
+
+----------------------
+In the first execution, the program will open a browser page to get the required permissions to your created Application in Step 1, Grant those permissions and Google will tell you that you can close the page, the program will continue once those permissions granted.
