@@ -1,0 +1,24 @@
+Index: src/Quickstart.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Quickstart.java	(revision )
++++ src/Quickstart.java	(revision )
+@@ -61,6 +61,7 @@
+     private static JsonBatchCallback<Permission> callback;
+     private static BufferedWriter bufferedWriter;
+     private static BufferedWriter bufferedWriterERR;
++    private static int waitReq;
+ 
+     static {
+         try {
+@@ -261,7 +262,7 @@
+                 doneReq=batch.size();
+             }
+ 
+-            int waitReq= batch.size();
++            waitReq= batch.size();
+             batch.execute();
+             while(waitReq>0);
+             batch= service.batch();
